@@ -16,10 +16,10 @@ const HeroSection = () => {
                 <VideoBg autoPlay loop muted src={Video} type ='video/mp4' /> 
             </HeroBg>
             <HeroContent>
-                <HeroH1>Programming Made Easy</HeroH1>
+                <HeroH1>Delivering best strategic IT Solutions</HeroH1>
                 <HeroP>
-                    Contact us now to find out how our team will help 
-                    you find your dream job!
+                engineering solutions for complex IT hurdles with our 
+                innovative and diverse workforce
                 </HeroP>
                 <HeroBtnWrapper>
                     <Button to ='sign up' onMouseEnter={onHover} onMouseLeave={onHover} primary ='true' dark='true'>
