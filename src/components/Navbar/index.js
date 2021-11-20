@@ -39,7 +39,7 @@ const Navbar = ({toggle}) => {
         <IconContext.Provider value={{color: '#fff'}}>
             <Nav scrollNav={scrollNav}>
                 <NavbarContainer>
-                    <NavLogo to='/' onClick={toggleHome}>TECHALCHEMY</NavLogo>
+                    <NavLogo to='/' onClick={toggleHome}>TechAlchemy</NavLogo>
                     <MobileIcon onClick={toggle}>
                         <FaBars />
                     </MobileIcon>
@@ -48,7 +48,10 @@ const Navbar = ({toggle}) => {
                             <NavLinks to="about" smooth={true} duration={500} spy={true} offset={-80} >About</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="discover" smooth={true} duration={500} spy={true} offset={-80} >Discover</NavLinks>
+                            <NavLinks to="alchemists" smooth={true} duration={500} spy={true} offset={-80} >Alchemists</NavLinks>
+                        </NavItem>
+                        <NavItem>
+                            <NavLinks to="clients" smooth={true} duration={500} spy={true} offset={-80} >Clients</NavLinks>
                         </NavItem>
                         <NavItem>
                             <NavLinks to="services" smooth={true} duration={500} spy={true} offset={-80} >Services</NavLinks>
@@ -56,11 +59,9 @@ const Navbar = ({toggle}) => {
                         <NavItem>
                             <NavLinks to="ContactUs"smooth={true} duration={500} spy={true} offset={-80} >Contact Us</NavLinks>
                         </NavItem>
-                        {/* <NavItem>
-                            <NavLinks to="about">About</NavLinks>
-                        </NavItem> */}
                         <NavBtn>
-                        <NavBtnLink to ="/">APPLY NOW</NavBtnLink>
+                        <NavBtnLink to ="/"  onClick={(e) => {window.location = "mailto:info@tech-alchemy.com";
+                        e.preventDefault();}}>APPLY NOW</NavBtnLink>
                         </NavBtn>
                     </NavMenu>
                 </NavbarContainer>

@@ -1,5 +1,5 @@
 import React from 'react'
-import { FooterContainer, FooterWrap, FooterLinksContainer, FooterLinksWrapper, FooterLinkItems, FooterLinkTitle, FooterLink, SocialMedia,WebSiteRights, SocialIcons, SocialIconLink,SocialMediaWrap, SocialLogo, FooterOpeningLink } from './FooterElements.js';
+import { FooterContainer, FooterWrap, FooterLinksContainer, FooterLinksWrapper, FooterLinkItems, FooterLinkTitle, FooterLink, SocialMedia,WebSiteRights, SocialIcons, SocialIconLink,SocialMediaWrap, SocialLogo, FooterOpeningLink, RecruitmentConditions, LatinMeaning } from './FooterElements.js';
 import { FaFacebook, FaYoutube, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa';
 import { animateScroll as scroll } from 'react-scroll';
 
@@ -22,11 +22,11 @@ const Footer = () => {
                         </FooterLinkItems>
                         <FooterLinkItems>
                             <FooterLinkTitle>Openings</FooterLinkTitle>
-                            <FooterOpeningLink >Java Developers</FooterOpeningLink>
-                            <FooterOpeningLink >Full Stack Developers</FooterOpeningLink>
+                            <FooterOpeningLink >Java Developer</FooterOpeningLink>
+                            <FooterOpeningLink >Full Stack Developer</FooterOpeningLink>
                             <FooterOpeningLink >Network Engineer</FooterOpeningLink>
                             <FooterOpeningLink >Cloud Security</FooterOpeningLink>
-                            <FooterOpeningLink >Automation Engineers</FooterOpeningLink>
+                            <FooterOpeningLink >Automation Engineer</FooterOpeningLink>
                         </FooterLinkItems>
                     </FooterLinksWrapper>
                     <FooterLinksWrapper>
@@ -70,6 +70,8 @@ const Footer = () => {
                             </SocialIconLink>
                         </SocialIcons>
                     </SocialMediaWrap>
+                    <RecruitmentConditions>TechAlchemy is an equal opportunity employer and will not discriminate against its employees for employment because of sex, race, color, religion, national origin, age, sexual orientation, disability, or veteran status or other basic classes protected by applicable federal or state law provided they are qualified for employment.</RecruitmentConditions>
+                    {/* <LatinMeaning>Custumer is never wrong.</LatinMeaning> */}
                 </SocialMedia>
             </FooterWrap>
         </FooterContainer>

@@ -122,3 +122,13 @@ export const SocialIconLink = styled.a`
     color: #fff;
     font-size: 24px;
 `;
+
+export const RecruitmentConditions = styled.small`
+    color: #fff;
+    margin-bottom: 16px;
+`;
+
+export const LatinMeaning = styled.small`
+color: #fff;
+margin-bottom: 16px;
+`;

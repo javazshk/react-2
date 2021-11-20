@@ -16,7 +16,7 @@ const HeroSection = () => {
                 <VideoBg autoPlay loop muted src={Video} type ='video/mp4' /> 
             </HeroBg>
             <HeroContent>
-                <HeroH1>Delivering best strategic IT Solutions</HeroH1>
+                <HeroH1>Delivering the best strategic IT Solutions</HeroH1>
                 <HeroP>
                 engineering solutions for complex IT hurdles with our 
                 innovative and diverse workforce

@@ -11,18 +11,18 @@ const Services = () => {
                 <ServicesWrapper>
                     <ServicesCard>
                         <ServicesIcon src={Icon1} />
-                        <ServicesH2>Cloud Platform</ServicesH2>
-                        <ServicesP>We recommend and provide cloud services for cost efficenct and resilient IT products.</ServicesP>
+                        <ServicesH2>Cloud Adaptation</ServicesH2>
+                        <ServicesP>We strive to provide cost-efficient, secure, cloud infra to help you minimize IT costs and handle your data, ensuring cyber-security and resiliency.</ServicesP>
                     </ServicesCard>
                     <ServicesCard>
                         <ServicesIcon src={Icon2} />
                         <ServicesH2>Increase Productivity</ServicesH2>
-                        <ServicesP>Efficent hiring of suitable workforce for clients and for consultants to increase the overall productivity.</ServicesP>
+                        <ServicesP>Great talent brings about a productive workplace that helps you meet your goals. Our diverse workforce delivers best IT products.</ServicesP>
                     </ServicesCard>
                     <ServicesCard>
                         <ServicesIcon src={Icon3} />
                         <ServicesH2>Talent Acquisition</ServicesH2>
-                        <ServicesP>we are helping our clients, finding suitable and most skilled workforce.</ServicesP>
+                        <ServicesP>Our experts have a hawk's eye for talent. Let us know your requirements, and we will help you meet the best talent from the market.</ServicesP>
                     </ServicesCard>
                 </ServicesWrapper>
         </ServicesContainer>
