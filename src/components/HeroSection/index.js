@@ -16,10 +16,9 @@ const HeroSection = () => {
                 <VideoBg autoPlay loop muted src={Video} type ='video/mp4' /> 
             </HeroBg>
             <HeroContent>
-                <HeroH1>Delivering the best strategic IT Solutions</HeroH1>
+                <HeroH1>Revolutionary Tech Solutions for an Empowered Tomorrow!</HeroH1>
                 <HeroP>
-                engineering solutions for complex IT hurdles with our 
-                innovative and diverse workforce
+                TechAlchemy is a leading IT firm providing innovative software and IT solutions to Service and Product providers for a brighter and better future. Utilizing Agile development tools and technologies, we create a better understanding between IT and business leaders.
                 </HeroP>
                 <HeroBtnWrapper>
                     <Button to ='sign up' onMouseEnter={onHover} onMouseLeave={onHover} primary ='true' dark='true'>

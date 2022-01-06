@@ -51,7 +51,7 @@ const Footer = () => {
                 <SocialMedia>
                     <SocialMediaWrap>
                         <SocialLogo to="/" onClick={toggleHome}>TechAlchemy</SocialLogo>
-                        <WebSiteRights>TechAlchemy LLC © {new Date().getFullYear()} All rights reserved.</WebSiteRights>
+                        <WebSiteRights>TechAlchemy, L.L.C. © {new Date().getFullYear()} All rights reserved.</WebSiteRights>
                         <SocialIcons>
                         <SocialIconLink href="//www.facebook.com" target ="_blank" aria-label="Facebook">
                                 <FaFacebook />

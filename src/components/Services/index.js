@@ -7,17 +7,17 @@ import Icon3 from '../../images/undraw_interview_rmcf.svg';
 const Services = () => {
     return (
         <ServicesContainer id ="services">
-            <ServicesH1>Our Services</ServicesH1>
+            <ServicesH1>Services</ServicesH1>
                 <ServicesWrapper>
                     <ServicesCard>
                         <ServicesIcon src={Icon1} />
                         <ServicesH2>Cloud Adaptation</ServicesH2>
-                        <ServicesP>We strive to provide cost-efficient, secure, cloud infra to help you minimize IT costs and handle your data, ensuring cyber-security and resiliency.</ServicesP>
+                        <ServicesP>We strive to provide cost-efficient, secure, and fast cloud infrastructure to help you minimize IT costs and process your data, ensuring cyber-security and resiliency.</ServicesP>
                     </ServicesCard>
                     <ServicesCard>
                         <ServicesIcon src={Icon2} />
                         <ServicesH2>Increase Productivity</ServicesH2>
-                        <ServicesP>Great talent brings about a productive workplace that helps you meet your goals. Our diverse workforce delivers best IT products.</ServicesP>
+                        <ServicesP>Great talent brings about a productive workplace that helps you meet your goals. We deliver the best IT products, so your business can prosper.</ServicesP>
                     </ServicesCard>
                     <ServicesCard>
                         <ServicesIcon src={Icon3} />
