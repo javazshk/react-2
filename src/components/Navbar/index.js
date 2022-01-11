@@ -11,9 +11,10 @@ import {
     NavItem,
     NavLinks,
     NavBtn,
-    NavBtnLink   
+    NavBtnLink,
+    NavLogoImg   
 } from './NavbarElements';
-
+import talogo from '../../images/2.svg';
 const Navbar = ({toggle}) => {
     const [scrollNav, setScrollNav] = useState(false);
 
@@ -39,7 +40,10 @@ const Navbar = ({toggle}) => {
         <IconContext.Provider value={{color: '#fff'}}>
             <Nav scrollNav={scrollNav}>
                 <NavbarContainer>
-                    <NavLogo to='/' onClick={toggleHome}>TechAlchemy</NavLogo>
+                  
+                    <NavLogo to='/' onClick={toggleHome} >
+                    <NavLogoImg src={talogo} />
+                    </NavLogo>
                     <MobileIcon onClick={toggle}>
                         <FaBars />
                     </MobileIcon>
@@ -60,7 +64,7 @@ const Navbar = ({toggle}) => {
                             <NavLinks to="ContactUs"smooth={true} duration={500} spy={true} offset={-80} >Contact Us</NavLinks>
                         </NavItem>
                         <NavBtn>
-                        <NavBtnLink to ="/"  onClick={(e) => {window.location = "mailto:info@tech-alchemy.com";
+                        <NavBtnLink to ="/"  onClick={(e) => {window.location = "mailto:apply@tech-alchemy.com";
                         e.preventDefault();}}>APPLY NOW</NavBtnLink>
                         </NavBtn>
                     </NavMenu>

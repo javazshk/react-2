@@ -30,6 +30,13 @@ export const NavbarContainer = styled.div`
     max-width: 1100px;
 `;
 
+
+export const NavLogoImg = styled.img`
+    height: 60px;
+    width: 410px;
+`;
+
+
 export const NavLogo = styled(LinkR)`
     color: #fff;
     justify-self: flex-start;
@@ -37,7 +44,7 @@ export const NavLogo = styled(LinkR)`
     font-size: 1.5rem;
     display: flex;
     align-items: center;
-    margin-left: 24px;
+    margin-left: -110px;
     font-weight: bold;
     text-decoration: none;
 `;

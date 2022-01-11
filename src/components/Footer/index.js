@@ -1,5 +1,5 @@
 import React from 'react'
-import { FooterContainer, FooterWrap, FooterLinksContainer, FooterLinksWrapper, FooterLinkItems, FooterLinkTitle, FooterLink, SocialMedia,WebSiteRights, SocialIcons, SocialIconLink,SocialMediaWrap, SocialLogo, FooterOpeningLink, RecruitmentConditions, LatinMeaning } from './FooterElements.js';
+import { FooterContainer, FooterWrap, FooterLinksContainer, FooterLinksWrapper, FooterLinkItems, FooterLinkTitle, FooterLink, SocialMedia,WebSiteRights, SocialIcons, SocialIconLink,SocialMediaWrap, SocialLogo, FooterOpeningLink, RecruitmentConditions } from './FooterElements.js';
 import { FaFacebook, FaYoutube, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa';
 import { animateScroll as scroll } from 'react-scroll';
 
@@ -14,9 +14,8 @@ const Footer = () => {
                     <FooterLinksWrapper>
                         <FooterLinkItems>
                             <FooterLinkTitle>Contact US</FooterLinkTitle>
-                            <FooterOpeningLink >   </FooterOpeningLink>
-                            <FooterOpeningLink >7543 Alexandra dr</FooterOpeningLink>
-                            <FooterOpeningLink >NewArk DE</FooterOpeningLink>
+                            <FooterOpeningLink >PO Box 1675</FooterOpeningLink>
+                            <FooterOpeningLink >Bear DE 19702</FooterOpeningLink>
                             <FooterOpeningLink >(510)931-9136</FooterOpeningLink>
                             <FooterOpeningLink >info@tech-alchemy.com</FooterOpeningLink>
                         </FooterLinkItems>
@@ -51,7 +50,7 @@ const Footer = () => {
                 <SocialMedia>
                     <SocialMediaWrap>
                         <SocialLogo to="/" onClick={toggleHome}>TechAlchemy</SocialLogo>
-                        <WebSiteRights>TechAlchemy LLC © {new Date().getFullYear()} All rights reserved.</WebSiteRights>
+                        <WebSiteRights>TechAlchemy, L.L.C. © {new Date().getFullYear()} All rights reserved.</WebSiteRights>
                         <SocialIcons>
                         <SocialIconLink href="//www.facebook.com" target ="_blank" aria-label="Facebook">
                                 <FaFacebook />
@@ -71,7 +70,6 @@ const Footer = () => {
                         </SocialIcons>
                     </SocialMediaWrap>
                     <RecruitmentConditions>TechAlchemy is an equal opportunity employer and will not discriminate against its employees for employment because of sex, race, color, religion, national origin, age, sexual orientation, disability, or veteran status or other basic classes protected by applicable federal or state law provided they are qualified for employment.</RecruitmentConditions>
-                    {/* <LatinMeaning>Custumer is never wrong.</LatinMeaning> */}
                 </SocialMedia>
             </FooterWrap>
         </FooterContainer>

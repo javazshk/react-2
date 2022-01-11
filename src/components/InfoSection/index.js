@@ -1,6 +1,6 @@
 import React from 'react';
-import { Button } from '../ButtonElements';
-import { Infocontainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, ImgWrap, Img, BtnWrap } from './InfoElements';
+// import { Button } from '../ButtonElements';
+import { Infocontainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, ImgWrap, Img } from './InfoElements';
 
 const InfoSection = ({lightBg, id, imgStart,topLine, lightText, darkText, headline, description, buttonLabel,img, alt, primary, dark, dark2}) => {
     return (
