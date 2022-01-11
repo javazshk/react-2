@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.41b29af8.css",
+    "main.js": "/static/js/main.273f7f9e.js",
+    "static/media/video.mp4": "/static/media/video.65861429380b680303c5.mp4",
+    "static/media/undraw_interaction_design_odgc.svg": "/static/media/undraw_interaction_design_odgc.8f516dc77dcef3e3c2f3e07537420e0c.svg",
+    "static/media/test-1.svg": "/static/media/test-1.4c3315ba822c17561180e64dd0884651.svg",
+    "static/media/undraw_interview_rmcf.svg": "/static/media/undraw_interview_rmcf.bdab5e075e04a972b0ea4b487b50c258.svg",
+    "static/media/undraw_prototyping_process_rswj.svg": "/static/media/undraw_prototyping_process_rswj.76ee73207593e989846a57b676b9c967.svg",
+    "static/media/undraw_cloud_hosting_aodd.svg": "/static/media/undraw_cloud_hosting_aodd.f16af1335f40d3d0f43d2e45e23d870a.svg",
+    "static/media/undraw_Secure_server_re_8wsq.svg": "/static/media/undraw_Secure_server_re_8wsq.dcade35bba56b239768ecacb6e2933c9.svg",
+    "static/media/undraw_pitching_re_fpgk.svg": "/static/media/undraw_pitching_re_fpgk.e3b70d0908bc21e5b2635f724721f9be.svg",
+    "static/media/undraw_not_found_60pq.svg": "/static/media/undraw_not_found_60pq.c5d23bc97a4fbb9422614386b6473373.svg",
+    "static/media/2.svg": "/static/media/2.ff636041f71e95a093e6acf7e6bb3cc3.svg",
+    "index.html": "/index.html",
+    "main.41b29af8.css.map": "/static/css/main.41b29af8.css.map",
+    "main.273f7f9e.js.map": "/static/js/main.273f7f9e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.41b29af8.css",
+    "static/js/main.273f7f9e.js"
+  ]
+}
